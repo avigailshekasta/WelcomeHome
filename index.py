@@ -1,5 +1,5 @@
-# check git reposetoryyyyy
-sdassdsa
+from django.http import HttpResponse
 
-sdsad
-hbdhbhh
+
+def index(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
